@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+
+<html lang="ne">
+
+<head>
+    <link rel="stylesheet" href="StyleCSS.css">
+    <title>Homepage</title>
+</head>
+
+<body>
+
+    <!-- Navigatiebalk class, voor de navigatiebalk-->
+    <ul class="Navigatiebalk">
+        <li id="fotoLogoNav"> <a href="Index.html"><img border="0" src="cpuLogo.png" width="40" height="40"></a></li>
+        <li class="nonFotoNav"><a href="Index.html"> Verschillen</a></li>
+        <li class="nonFotoNav"><a href="geschiedenis.html"> Geschiedenis</a></li>
+        <li class="nonFotoNav"><a href="werking.html"> Werking</a></li>
+        <li class="nonFotoNav"><a href="Index.html">Constructie</a></li>
+        <li class="nonFotoNav"><a href="Index.html">Gebruik</a></li>
+    </ul>
+
+    <!--Foto van de voorpagina-->
+    <div id="voorpaginaFoto">
+        <div id="voorpaginaFoto2">
+        </div>
+    </div>
+
+
+    <!--Tekst op de voorpagina, boven de scheidingslijn-->
+    <div id="voorpaginaTekst">
+        <h1> De werking van een Processor, </h1>
+        <p> De processor is een erg belangrijk deel van de computer, </p>
+        <p> het is een stuk hardware in een computer dat instaat voor basisbewerkingen en controle bij het uitvoeren van programmacode.</p>
+        <p> Een (eenvoudige) processor bestaat uit de volgende 4 onderdelen:</p>
+        <hr />
+    </div>
+
+
+    <div id="werkingpaginaTekst">
+        <h2>De 4 Basisonderdelenvan een CPU</h2>
+        <p>•   Een aantal registers met verschillende functies:</p>
+        <p>Een “accumulator” waarin de resultaten van berekeningen worden opgeslagen</p>
+        <p>Een statusregister waarin informatie wordt bijgehouden</p>
+        <p>Een programmateller waarin het adres staat met instructies</p>
+        <p>Registers die adressen van geheugenplaatsen kunnen bevatten</p><br>
+        <p>•    Een arithmetic logic unit (alu) die de berekeningen uitvoert</p>
+        <p>•   Logica om instructies te decoderen en de onderdelen aan te sturen</p>
+        <p>•   Logica om interrupts af te handelen</p>
+
+    </div>
+
+
+
+    <!-- Splitgedeelte in het midden van de mainpage-->
+    <div id="voorpaginaSplitter1">
+        <p id="Splitter1Groot">Leuk weetje!</p>
+        <p class="Splitter1Klein">Veel CPU's kunnen tegenwoordig in één seconde meer dan 1 miljard (1.000.000.000) instructies uitvoeren.</p>
+        <p class="Splitter1Klein">Over het algemeen geldt dat hoe meer een CPU in een bepaalde tijd kan doen, hoe sneller hij is.</p>
+        <p class="Splitter1Klein">Een manier om de snelheid van een processor te meten, is MIPS (Million Instructions Per Second).</p>
+        <img src="IPhoneFotoTest.png" />
+    </div>
+
+    <!-- Tweede tekstgedeelte op de mainpage-->
+    <div id="werkingpaginaTekst3">
+        <p id="helloWorld"> De werking: </p>
+        <div id="blockNextToHW"></div>
+        <p>De processor dient alleen instructies op, het programma dat uitgevoerd wordt door de processor staat in het RAM-geheugen. </p>
+        <p>Daarom heeft de processor een programmateller die het geheugenadres van de volgende instructie bijhoudt,</p>
+        <p>de processor haalt nu die instructies op die hij op de juiste volgorde nodig heeft in de programmateller. </p><br>
+        <p>Dan komt het decoderen, de code die in het instructieregister staat is geschreven in nullen en eentjes. </p>
+        <p>Om deze code te decoderen hebben we de registers nodig,</p>
+        <p>het word opgesplitst in verschillende registers en vervolgens los van elkaar uiteindelijk bij elkaar gezet. </p>
+        <p>Nadat de route van deze berekening is gepland gaat het van start. Dan volgt de zogenaamde “execute-fase”. </p>
+        <p>De processor staat in de juiste stand en de berekening wordt gestart,</p>
+        <p>de benodigde informatie wordt opgehaald vanuit het RAM-geheugen en uitgevoert,</p>
+        <p>als het klaar is word dit stukje informatie in het tijdelijk geheugen opgeslagen.</p>
+        <hr />
+    </div>
+
+    <!-- Dit zijn de knoppen op de mainpage, onder tweede tekstegedeelte, boven eindtekst-->
+    <div id="voorpaginaLijst" style="margin-top: 0;">
+
+        <a href="VerschillenCPUs.html">
+            <div class="knoppen shrink-on-hover">
+                <p>Verschillen</p>
+            </div>
+        </a>
+
+        <a href="Geschiedenis.html">
+            <div class="knoppen shrink-on-hover">
+                <p>Geschiedenis</p>
+            </div>
+        </a>
+
+        <a href="Werking.html">
+            <div class="knoppen shrink-on-hover">
+                <p>Werking</p>
+            </div>
+        </a>
+
+        <a href="Constructie.html">
+            <div class="knoppen shrink-on-hover">
+                <p>Constructie</p>
+            </div>
+        </a>
+
+        <a href="Werking.html">
+            <div class="knoppen shrink-on-hover">
+                <p>Werking</p>
+            </div>
+        </a>
+    </div>
+
+    <div id="kleurenbalkOnderaan" style="background-image:linear-gradient(345deg, rgba(2,0,36,1) 25%, rgba(146,105,140,1) 73%, rgba(222,182,216,1) 95%);">
+        <p>Joshua</p>
+        <div class="puntjes"></div>
+        <p>Dale</p>
+        <div class="puntjes"></div>
+        <p>Per</p>
+    </div>
+
+
+</body>
+
+</html>
